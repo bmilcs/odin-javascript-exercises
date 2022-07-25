@@ -27,6 +27,9 @@ const sumAll = function (num1, num2) {
   return finalSum;
 };
 
+// Odin solution difference:
+// if (!Number.isInteger(min) || !Number.isInteger(max)) return "ERROR";
+
 console.log(sumAll(1, 4));
 
 // Do not edit below this line
